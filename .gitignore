@@ -14,11 +14,14 @@ __pycache__/
 # IDE
 .vscode/
 .idea/
-# Debug scripts
-backend/_audit.py
+# Debug / temp scripts
+backend/_*.py
 backend/check_excel.py
 backend/clean_junk.py
 backend/debug_sold.py
-backend/fix_db.py
+backend/fix_*.py
 backend/verify.py
+# Backup DBs (keep only active jpdc.db)
+backend/jpdc_backup_*.db
+backend/jpdc_bk_*.db
 
