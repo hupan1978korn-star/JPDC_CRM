@@ -57,7 +57,7 @@ python -c "import sqlite3; c=sqlite3.connect('jpdc.db').cursor(); c.execute('SEL
 echo.
 echo [4/4] Syncing to GitHub...
 if exist "%ROOT%scripts\git-sync.bat" (
-    call "%ROOT%scripts\git-sync.bat"
+    start "GIT_SYNC" /MIN cmd /c "call "%ROOT%scripts\git-sync.bat" && pause"
 ) else (
     echo [SKIP] git-sync.bat not found. Run git-sync.bat separately.
 )
