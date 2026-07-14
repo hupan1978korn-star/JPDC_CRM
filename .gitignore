@@ -1,0 +1,24 @@
+﻿# Excel raw files (import via 一键更新数据.bat)
+*.xlsx
+*.xlsm
+*.xls
+# Source archives
+source_excels/
+# Python cache
+__pycache__/
+*.pyc
+# Build artifacts
+*.apk
+*.zip
+*.tar.gz
+# IDE
+.vscode/
+.idea/
+# Debug scripts
+backend/_audit.py
+backend/check_excel.py
+backend/clean_junk.py
+backend/debug_sold.py
+backend/fix_db.py
+backend/verify.py
+
