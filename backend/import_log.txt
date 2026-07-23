@@ -1438,3 +1438,74 @@ Import completed. 1471 records. Phone app: pull to refresh.
 [2026-07-14 15:23:30] [INFO] ============================================================
 [2026-07-14 15:23:30] [INFO] 
 Import completed. 1471 records. Phone app: pull to refresh.
+[2026-07-23 14:45:17] [INFO] ============================================================
+[2026-07-23 14:45:17] [INFO] JPDC CRM - Data Import Started
+[2026-07-23 14:45:17] [INFO] ============================================================
+[2026-07-23 14:45:17] [INFO] Archived: import_20260723_144517_JPDC CRM-7.23_linked_v2 (5)_fixed (3).xlsx
+[2026-07-23 14:45:17] [INFO] Opening: C:\Users\Korn\Desktop\JPDC CRM-7.23_linked_v2 (5)_fixed (3).xlsx
+[2026-07-23 14:45:18] [INFO] Sheets found: ['逾期预警 Overdue', '户型热力图 Heatmap', '仪表台 Dashboard', '操作台 Operation', 'TOWER A', 'TOWER E', '退房明细 Returned', '问题单元 Problem', '已售客户 Sold Clients', 'Payment Details']
+[2026-07-23 14:45:18] [INFO] Backup saved: C:\Users\Korn\Desktop\JPDC_CRM_安装包\backend\source_excels\jpdc_backup_20260723_144518.db
+[2026-07-23 14:45:18] [INFO] 
+-- Tower A (sheet: TOWER A) --
+[2026-07-23 14:45:18] [INFO]   Sheet has 847 total rows
+[2026-07-23 14:45:18] [INFO]   Header at row 0 (0-indexed)
+[2026-07-23 14:45:18] [INFO]   Header: ['楼层 / Floor', '单元 / Unit', '户型 / Type', '面积 / Area (sqm)', '面积 / Old Area (sqm)', '单价 / Price/sqm', '已销售单位总价\nTotal Price of So', 'Discount']
+[2026-07-23 14:45:18] [INFO]   First row: ['37', '37 01', '3 BEDROOM', '64.52', 'None', '237800', 'None', 'None']
+[2026-07-23 14:45:18] [INFO]   Cleared tower A: 841 rows
+[2026-07-23 14:45:18] [INFO]   Skipped 5 rows (empty/bad format)
+[2026-07-23 14:45:18] [INFO]   Imported 841 rows for Tower A
+[2026-07-23 14:45:18] [INFO] 
+-- Tower E (sheet: TOWER E) --
+[2026-07-23 14:45:18] [INFO]   Sheet has 390 total rows
+[2026-07-23 14:45:18] [INFO]   Header at row 0 (0-indexed)
+[2026-07-23 14:45:18] [INFO]   Header: ['楼层 / Floor', '单元 / Unit', '户型 / Type', '面积 / Area (sqm)', '面积 / Old Area (sqm)', '单价 / Price/sqm', '已销售单位总价\nTotal Price of So', 'Discount']
+[2026-07-23 14:45:18] [INFO]   First row: ['33（37）', '33 P1', '4 BEDROOM', '170.5', 'None', '257000', 'None', 'None']
+[2026-07-23 14:45:18] [INFO]   Cleared tower E: 386 rows
+[2026-07-23 14:45:18] [INFO]   Skipped 3 rows (empty/bad format)
+[2026-07-23 14:45:18] [INFO]   Imported 386 rows for Tower E
+[2026-07-23 14:45:18] [INFO] 
+-- Overdue (sheet: 逾期预警 Overdue) --
+[2026-07-23 14:45:18] [INFO]   Sheet has 34 total rows
+[2026-07-23 14:45:18] [INFO]   Header at row 0
+[2026-07-23 14:45:18] [INFO]   Imported 21 overdue records
+[2026-07-23 14:45:18] [INFO] 
+-- Sold Clients (sheet: 已售客户 Sold Clients) --
+[2026-07-23 14:45:18] [INFO]   Sheet has 106 total rows
+[2026-07-23 14:45:18] [INFO]   Header at row 3
+[2026-07-23 14:45:18] [INFO]   Imported 102 sold clients
+[2026-07-23 14:45:18] [INFO] 
+-- Payments (sheet: Payment Details) --
+[2026-07-23 14:45:18] [INFO]   Sheet has 79 total rows
+[2026-07-23 14:45:18] [INFO]   Header at row 0
+[2026-07-23 14:45:18] [INFO]   Imported 76 payments
+[2026-07-23 14:45:18] [INFO] 
+-- Returned (sheet: 退房明细 Returned) --
+[2026-07-23 14:45:18] [INFO]   Sheet has 43 total rows
+[2026-07-23 14:45:18] [INFO]   Header at row 3
+[2026-07-23 14:45:18] [INFO]   Imported 39 returned
+[2026-07-23 14:45:18] [INFO] 
+-- Problems (sheet: 问题单元 Problem) --
+[2026-07-23 14:45:18] [INFO]   Sheet has 14 total rows
+[2026-07-23 14:45:18] [INFO]   Header at row 3
+[2026-07-23 14:45:18] [INFO]   Imported 10 problems
+[2026-07-23 14:45:18] [INFO] 
+-- Inventory --
+[2026-07-23 14:45:18] [INFO]   Inventory rebuilt
+[2026-07-23 14:45:18] [INFO] 
+============================================================
+[2026-07-23 14:45:18] [INFO] IMPORT SUMMARY
+[2026-07-23 14:45:18] [INFO] ============================================================
+[2026-07-23 14:45:18] [INFO]   Tower A        :    841 records
+[2026-07-23 14:45:18] [INFO]   Tower E        :    386 records
+[2026-07-23 14:45:18] [INFO]   Overdue        :     21 records
+[2026-07-23 14:45:18] [INFO]   Sold           :    102 records
+[2026-07-23 14:45:18] [INFO]   Payments       :     76 records
+[2026-07-23 14:45:18] [INFO]   Returned       :     39 records
+[2026-07-23 14:45:18] [INFO]   Problem        :     10 records
+[2026-07-23 14:45:18] [INFO]   ─────────────────────────
+[2026-07-23 14:45:18] [INFO]   TOTAL          :   1475 records
+[2026-07-23 14:45:18] [INFO]   Source: JPDC CRM-7.23_linked_v2 (5)_fixed (3).xlsx
+[2026-07-23 14:45:18] [INFO]   Status: SUCCESS
+[2026-07-23 14:45:18] [INFO] ============================================================
+[2026-07-23 14:45:18] [INFO] 
+Import completed. 1475 records. Phone app: pull to refresh.
